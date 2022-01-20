@@ -17,8 +17,8 @@ Library    RPA.Dialogs
 *** Variables ***
 ${CSV_FILE_URL}     https://robotsparebinindustries.com/orders.csv
 ${CSV_FILE_PATH}    ${OUTPUT DIR}/orders.csv
-${PDF_FILE_PATH}    ${OUTPUT DIR}/receipts/
-${JPG_FILE_PATH}    ${OUTPUT DIR}/screenshots/
+${PDF_FILE_PATH}    data/receipts/
+${JPG_FILE_PATH}    data/screenshots/
 
 
 *** Keywords ***
